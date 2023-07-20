@@ -1,0 +1,98 @@
+/* style anjay mabar */
+/* margin 0 ini untuk pas in keatas */
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("hutan.jpg");
+  height: 100%;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #666633;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  /* font size untuk ukuran teks/kata */
+  font-size: 40px;
+  /* font weight untuk ubah ketebalan teks */
+  font-weight: bold;
+}
+
+.header ul li {
+  /* disply in;ine block untuk kesamping */
+  display: inline-block;
+  /* margin top untuk jarak atas kebawah */
+  margin-top: 10px;
+  /* margin untuk jarak teks */
+  margin-right: 15px;
+}
+
+.header a {
+  /* decoration none untuk megnhilngkan line bawah */
+  text-decoration: none;
+  color: #000000;
+  padding: 5px;
+}
+
+.header a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-position: 0 -100;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 200px;
+  box-shadow: box-shadow: -1px 6px 14px 6px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 6px 14px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 6px 14px 6px rgba(0,0,0,0.75);
+}
+
+.content {
+  padding: 16px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.content .penulis {
+  font-size: 12px;
+}
+
+.content a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  color: antiquewhite;
+  border-radius: 4px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 14px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
